@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/static/css/style.css"/>
+    {% block head %}{% endblock %}
+</head>
+<body>
+
+<section class="wrapper">
+    <section class="content">
+        {% block content %}
+
+        {% endblock %}
+    </section>
+</section>
+
+<section class="footer">
+    Starter blog project for <a href="http://mindy-cms.ru">Mindy</a>.
+</section>
+
+{% block js %}{% endblock %}
+</body>
+</html>

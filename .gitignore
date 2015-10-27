@@ -1,0 +1,17 @@
+!.gitkeep
+
+.DS_Store
+*.pyc
+
+composer.lock
+
+.idea
+*.iml
+
+app/Modules/*
+app/runtime/*
+app/vendor/*
+app/config/settings_local.php
+
+www/media
+www/static_admin

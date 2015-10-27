@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Last posts</h1>
+
+    <ul>
+        {% for post in last_posts %}
+            <li>
+                <a href="{{ post.getAbsoluteUrl() }}">
+                    {{ post.name }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
